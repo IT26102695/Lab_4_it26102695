@@ -1,0 +1,7 @@
+1. No short circuit evaluation. Output = 0(False)
+
+2. c >= 6 is not evaluated due to short circuiting. Output = 1(True)
+
+3. a % 2 == 0 is not evaluated due to short circuiting. Output = 0(False)
+
+4. c < a+b is is not evaluated due to short circuiting. Output = 0(False) 
