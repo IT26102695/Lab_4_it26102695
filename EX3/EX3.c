@@ -9,11 +9,11 @@ int main()
 	printf("Enter fingerprint match data(1 or 0)\n");
 	scanf("%d", &fingerprint_match);
 	printf("Enter retinal match data(1 or 0)\n");
-        scanf("%d", &retinal_match);
-        printf("Enter access card validation data(1 or 0)\n");
-        scanf("%d", &access_card_valid);
+    scanf("%d", &retinal_match);
+    printf("Enter access card validation data(1 or 0)\n");
+    scanf("%d", &access_card_valid);
 
-        if(fingerprint_match && retinal_match || fingerprint_match && access_card_valid || retinal_match && access_card_valid) //checks if any 2 conditions satisfied 
+    if(fingerprint_match && retinal_match || fingerprint_match && access_card_valid || retinal_match && access_card_valid) //checks if any 2 conditions satisfied 
 	  
 	   {
 	     printf("Access Granted\n");
